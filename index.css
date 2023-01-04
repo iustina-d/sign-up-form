@@ -120,16 +120,12 @@ button {
 .checkbox:checked + .label .ball {
   transform: translateX(24px);
 }
-/* .checkbox:checked + .label .ball-two {
-  transform: translateX(24px);
-} */
 @media (min-width: 700px) {
   .container {
     margin: 1.25rem auto;
     padding: 2rem;
   }
   .container form .form-inner {
-    /* grid-template-columns: repeat(2, 1fr); */
     flex-direction: row;
   }
   .container form .form-inner article {
